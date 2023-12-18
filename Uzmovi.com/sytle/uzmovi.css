@@ -1,0 +1,16 @@
+.movi-navbar{
+    background-color: #1B2129;
+}
+
+.movi-logo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar-brand{
+    color: azure !important;
+}
+
+.navbar-brand:hover{
+    box-shadow: 5px 5px 10px rgba(38, 190, 0, 0.3);
+}
