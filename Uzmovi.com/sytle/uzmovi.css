@@ -1,16 +1,45 @@
-.movi-navbar{
-    background-color: #1B2129;
+.movi-navbar {
+  background-color: #1b2129;
 }
 
-.movi-logo{
-    margin-left: 10%;
-    margin-right: 10%;
+.movi-logo {
+  margin-left: 10%;
+  margin-right: 7%;
 }
 
-.navbar-brand{
-    color: azure !important;
+.navbar-brand {
+  color: azure !important;
 }
 
-.navbar-brand:hover{
-    box-shadow: 5px 5px 10px rgba(38, 190, 0, 0.3);
+.navbar-brand:hover {
+  box-shadow: 5px 5px 10px rgba(38, 190, 0, 0.3);
+}
+
+.telegram-connect {
+  height: 200px;
+  background-color: #0f151a;
+  text-align: center;
+}
+
+.telegram-container{
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+}
+
+.telegram-btn {
+  width: 100%;
+  background-color: #1265a5; /* Green */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.telegram-icon {
+  width: 20px;
+  height: 20px;
 }
