@@ -11,12 +11,15 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
     AppComponent,
     DialogComponent
-  ],
+  ],  
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -26,8 +29,12 @@ import {MatSelectModule} from '@angular/material/select';
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatRadioModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
